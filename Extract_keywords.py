@@ -5,7 +5,7 @@ import xlsxwriter
 #first we will extract the text from the pdf.To do this PyPDF2 is used/
 
 #creating a pdf file object
-pdfFileObj = open(r'C:\Users\ashu\Downloads\JavaBasics-notes.pdf', 'rb')
+pdfFileObj = open('JavaBasics-notes.pdf', 'rb')
  
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
